@@ -4,6 +4,7 @@ import { BsGithub } from "react-icons/bs";
 import { MdArrowOutward } from "react-icons/md";
 import { Link } from "react-router-dom";
 import cyberTalk from '../assets/CyberTalk-App.png'
+import portfolio from '../assets/Aditya.dev.png'
 
 const projectList = [
   {
@@ -11,7 +12,7 @@ const projectList = [
     gradient: "from-blue-50 to-yellow-100",
     image: cyberTalk, // Replace this with a more app-relevant image if desired
     github: "https://github.com/Aditya202666/CyberTalk",
-    live: "https://cybertalk.onrender.com/login",
+    live: "https://cybertalk.onrender.com",
     frontend: ["React", "Tailwind CSS", "Socket.io", "Zustand", "React Router", "Axios"],
     backend: ["Node.js", "Express", "MongoDB", "Mongoose", "JWT", "bcrypt", "Cloudinary", "Nodemailer"],
     description:
@@ -40,16 +41,16 @@ const projectList = [
   //     "A personal finance tracking app that helps users analyze their spending habits and budget effectively.",
   // },
   {
-    title: "FitPulse",
-    gradient: " from-yellow-100 to-red-100/30",
-    image: "https://source.unsplash.com/400x300/?fitness,workout",
-    github: "https://github.com/user/fitpulse",
-    live: "https://fitpulse.fit",
-    frontend: ["Svelte", "Tailwind CSS", "D3.js"],
-    backend: ["FastAPI", "SQLite"],
+    title: "Portfolio Website",
+    gradient: "from-yellow-100 to-red-100/30",
+    image: portfolio, // You can replace with a custom screenshot
+    github: "https://github.com/Aditya202666/Portfolio", // Replace with your actual GitHub URL
+    live: 'https://portfolio-rq9c.onrender.com', // Replace with your actual live site URL
+    frontend: ["React", "Framer Motion", "React Router", "EmailJS"],
+    backend: [],
     description:
-      "A modern fitness tracking app with workout plans, progress tracking, and AI-based recommendations.",
-  },
+      "A responsive and animated personal portfolio site showcasing my projects, skills, and contact information. Includes an integrated contact form using EmailJS.",
+  }
 ];
 
 const ProjectsPage = () => {
@@ -94,7 +95,7 @@ const ProjectsPage = () => {
                 </p>
                 <p className="space-x-1 mb-4">
                   {" "}
-                  <span className="font-medium">BackEnd: </span>{" "}
+                  {project.backend.lenght > 0 && <span className="font-medium">BackEnd: </span>}
                   {project.backend.map((tech) => (
                     <span key={tech} className={`text-sm bg-gradient-to-t ${project.gradient} shadow text-black px-1.5 py-0.5 rounded-md hover:scale-110 transition-all`}>{tech}</span>                  ))}{" "}
                 </p>
