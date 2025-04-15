@@ -103,9 +103,9 @@ const Navbar = () => {
       <Link to={"https://github.com/Aditya202666"} target="_blank" rel="noopener noreferrer">
         <BsGithub className="size-5 hover:scale-110 transition-all" />
       </Link>
-      <Link to={""} target="_blank" rel="noopener noreferrer">
+      {/* <Link to={""} target="_blank" rel="noopener noreferrer">
         <FaLinkedin className="size-5 hover:scale-110 transition-all text-blue-400" />
-      </Link>
+      </Link> */}
       <Link to={"https://www.codewars.com/users/Aditya202666"} target="_blank" rel="noopener noreferrer">
         <SiCodewars className="size-5 hover:scale-110 transition-all bg-black text-red-500 rounded-sm" />
       </Link>
