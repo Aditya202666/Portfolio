@@ -21,7 +21,7 @@ const projectList = [
   },
   {
     title: "Mindmesh",
-    gradient: " from-red-100 to-purple-100",
+    gradient: " from-yellow-100 to-purple-100",
     image: mindmesh,
     github: "https://github.com/Aditya202666/Mindmesh-Frontend",
     live: "https://mindmesh-frontend.onrender.com/",
@@ -43,7 +43,7 @@ const projectList = [
   // },
   {
     title: "Portfolio Website",
-    gradient: "from-yellow-100 to-red-100/30",
+    gradient: "from-purple-100 to-red-100/30",
     image: portfolio, // You can replace with a custom screenshot
     github: "https://github.com/Aditya202666/Portfolio", // Replace with your actual GitHub URL
     live: 'https://portfolio-rq9c.onrender.com', // Replace with your actual live site URL

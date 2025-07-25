@@ -13,13 +13,12 @@ const skills = [
   "Node.js",
   "Express.js",
   "MongoDB",
-  "Mongoose",
-  "JWT",
+  "SQL",
+  "Redux",
   "Zustand",
-  "Tailwind CSS",
   "Socket.IO",
+  "Tailwind CSS",
   "Cloudinary",
-  "Axios",
 ];
 const AboutPage = () => {
 
