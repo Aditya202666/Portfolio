@@ -5,6 +5,7 @@ import { MdArrowOutward } from "react-icons/md";
 import { Link } from "react-router-dom";
 import cyberTalk from '../assets/CyberTalk-App.png'
 import portfolio from '../assets/Aditya.dev.png'
+import mindmesh from '../assets/Mindmesh.png'
 
 const projectList = [
   {
@@ -18,17 +19,17 @@ const projectList = [
     description:
       "A real-time chat application enabling secure one-to-one messaging with text/image support, email-based 2FA, user authentication, online presence indicators, and profile customization.",
   },
-  // {
-  //   title: "DevConnect",
-  //   gradient: " from-red-100 to-purple-100",
-  //   image: "https://source.unsplash.com/400x300/?developer,network",
-  //   github: "https://github.com/user/devconnect",
-  //   live: "https://devconnect.app",
-  //   frontend: ["Vue.js", "Vuetify", "GSAP"],
-  //   backend: ["Django", "PostgreSQL"],
-  //   description:
-  //     "A networking platform designed for developers to connect, share knowledge, and collaborate on projects.",
-  // },
+  {
+    title: "Mindmesh",
+    gradient: " from-red-100 to-purple-100",
+    image: mindmesh,
+    github: "https://github.com/Aditya202666/Mindmesh-Frontend",
+    live: "https://mindmesh-frontend.onrender.com/",
+    frontend: ["React.js", "Tailwind CSS", "Redux", "DaisyUI"],
+    backend: ["Node.js", "Express", "MongoDB", "Cloudinary"],
+    description:
+      "A  simple and personal task management web app built using the MERN stack. It's inspired by the aesthetics of sticky notes, featuring seven soft pastel background colors to visually represent task priority.",
+  },
   // {
   //   title: "FinTrack",
   //   gradient: " from-purple-100 to-green-100",
