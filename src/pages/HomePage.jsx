@@ -18,7 +18,7 @@ const HomePage = () => {
       {/* text section */}
       <div className='h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-2 justify-center'>
         <h1 className='text-4xl font-bold'>Aditya Kumar</h1>
-        <p>A self-taught MERN stack developer with a background in civil engineering. I transitioned into web development as i've been interested in coding from an early age.</p>
+        <p>A self-taught full stack developer with a background in civil engineering. I transitioned into web development as i've been interested in coding from an early age.</p>
         
         <div className='space-x-4 mt-2'>
           <button 
