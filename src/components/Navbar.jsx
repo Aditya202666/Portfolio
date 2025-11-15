@@ -77,7 +77,7 @@ const Navbar = () => {
           key={link.label}
             to={link.href}
             className={({ isActive }) =>
-              `font-semibold text-lg ${
+              `font-semibold text-lg cursor-pointer ${
                 isActive ? "bg-black rounded-sm text-white px-1" : ""
               } `
             }
