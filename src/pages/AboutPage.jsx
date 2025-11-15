@@ -3,17 +3,18 @@ import { FaAngleDoubleDown } from "react-icons/fa";
 
 import Sign from "../assets/signature.svg";
 import Brain from "../components/Brain";
-import { BiArrowFromLeft } from "react-icons/bi";
-import { FaCircleArrowRight } from "react-icons/fa6";
 import { useRef } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const skills = [
-  "React.js",
+  "JavaScript",
+  "TypeScript",
   "Node.js",
   "Express.js",
+  "React.js", 
+  "Next.js",
   "MongoDB",
-  "SQL",
+  "PostgreSQL",
   "Redux",
   "Zustand",
   "Socket.IO",
@@ -45,12 +46,12 @@ const AboutPage = () => {
         <div className="flex flex-col gap-12 justify-center">
           <h1 className="font-bold text-2xl">ABOUT ME</h1>
           <p className="text-lg tracking-tight">
-            I am a self-taught MERN stack developer with a background in civil
+            I am a self-taught full-stack developer with a background in civil
             engineering. After earning a diploma in civil engineering and
             working for two years as a Junior Engineer Trainee at MSIL(Maruti
             Suzuki India Limited), I transitioned into web development as i've
             been interested in coding from an early age. I am currently looking
-            for an entry-level role to gain hands-on experience and grow as a
+            for an full-time role to gain hands-on experience and grow as a
             developer.
           </p>
           <span className="italic">Good code should speak for itself.</span>

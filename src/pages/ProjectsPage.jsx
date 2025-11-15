@@ -96,7 +96,7 @@ const ProjectsPage = () => {
                 </p>
                 <p className="space-x-1 mb-4">
                   {" "}
-                  {project.backend.lenght > 0 && <span className="font-medium">BackEnd: </span>}
+                  {project.backend.length > 0 && <span className="font-medium">BackEnd: </span>}
                   {project.backend.map((tech) => (
                     <span key={tech} className={`text-sm bg-gradient-to-t ${project.gradient} shadow text-black px-1.5 py-0.5 rounded-md hover:scale-110 transition-all`}>{tech}</span>                  ))}{" "}
                 </p>
@@ -133,7 +133,7 @@ const ProjectsPage = () => {
             </defs>
             <text fill="#000">
               <textPath xlinkHref="#circlePath" className="text-xl">
-              &#9679; MERN-Stack Developer &#9679;  
+              &#9679; Full-Stack Developer &#9679;  
               </textPath>
             </text>
           </motion.svg>
